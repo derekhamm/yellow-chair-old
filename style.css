@@ -3,7 +3,7 @@ Theme Name: Yellow Chair
 Theme URI: derekhamm.com
 Author: Derek Hamm
 Author URI: derekhamm.com
-Description: Portfolio theme.
+Description: Theme for a personal site.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -1024,7 +1024,7 @@ body {
 /* Grid */
 
 .site-header, .content-area, .site-footer {
-	background: var(--back-color);
+	background: var(--text-color);
     display: grid;
     grid-template-columns:
         minmax( 1rem, 1fr )
@@ -1213,7 +1213,6 @@ ul {
 
 .site-footer {
 	background: var(--foot-color);
-	background: orange;
 }
 
 .site-footer p {

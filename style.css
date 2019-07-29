@@ -1024,7 +1024,7 @@ body {
 /* Grid */
 
 .site-header, .content-area, .site-footer {
-	background: var(--text-color);
+	background: var(--back-color);
     display: grid;
     grid-template-columns:
         minmax( 1rem, 1fr )

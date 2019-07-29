@@ -688,7 +688,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-/* Small menu. 
+/* Small menu.
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
@@ -697,7 +697,7 @@ a:hover, a:active {
 
 
 @media screen and (min-width: 37.5em) {
-	
+
 	*/
 	.menu-toggle {
 		display: none;
@@ -1017,7 +1017,7 @@ body.page {
 
 body {
   background: var(--foot-color);
-  color: var(--text-color); 
+  color: var(--text-color);
   font-family: var(--serif-text);
 }
 
@@ -1040,7 +1040,7 @@ body {
 .content-area, .site-footer {
 	  padding: 2em 0 4em;
 	 }
-	 
+
 .site-header {
 	padding: 2em 0 0;
 }
@@ -1213,6 +1213,7 @@ ul {
 
 .site-footer {
 	background: var(--foot-color);
+	background: orange;
 }
 
 .site-footer p {
@@ -1246,7 +1247,7 @@ ul {
 No media query since this is the default in Bootstrap */
 
 body {
-  
+
 }
 
 /* Small devices (landscape phones, 34em and up) */
@@ -1255,7 +1256,7 @@ body {
 	body {
     font-size: 120%;
   }
-  
+
   .project-grid {
 	display: grid;
 	grid-template-columns: repeat( 2, minmax( 1em, 1fr ) );
@@ -1300,7 +1301,7 @@ body {
 body {
     font-size: 140%;
   }
-  
+
 
 
 }

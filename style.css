@@ -1033,7 +1033,11 @@ body {
     grid-column-gap: 2%;
 }
 
-.site-branding, .main-navigation, .site-main, .site-info, .site-contact, .site-social {
+.site-branding, .main-navigation {
+	grid-column: 1 / span 14;
+}
+
+.site-main, .site-info, .site-contact, .site-social {
 	grid-column: 2 / span 12;
 }
 

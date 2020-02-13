@@ -1030,24 +1030,20 @@ body {
         minmax( 1rem, 1fr )
         repeat( 12, minmax( 1em, 2em ) )
         minmax( 1rem, 1fr );
-    grid-column-gap: 2%;
+    grid-column-gap: 3%;
 }
 
-.site-branding, .main-navigation {
+.site-branding{
 	grid-column: 1 / span 14;
 }
 
-.site-main, .site-info, .site-contact, .site-social {
+.main-navigation, .site-main, .site-info, .site-contact, .site-social {
 	grid-column: 2 / span 12;
 }
 
 .content-area, .site-footer {
 	  padding: 2em 0 4em;
 	 }
-
-.site-header {
-	padding: 2em 0 0;
-}
 
 /* Typography */
 
@@ -1124,14 +1120,23 @@ p {
 }
 
 .site-title {
-	font-size: .95em;
-	font-family: var(--sans-text);
-  font-weight: 700;
+	font-family: unit-gothic-717, sans-serif;
+    font-weight: 400;
+	font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -.45em;
+    margin-left: -.1em;
+    letter-spacing: -2px;
   margin-bottom: 0;
 }
 
 .main-navigation {
 	margin-top: 1.25em;
+}
+
+#primary-menu {
+	display: flex;
+	justify-content: flex-end;
 }
 
 .menu-item a {
@@ -1140,7 +1145,7 @@ p {
 	font-size: .95em;
 	line-height: 1.2;
 	font-weight: 400;
-	margin-right: 2em;
+	margin-left: 2em;
 }
 
 .menu-item a:hover, .current-menu-item a {
@@ -1220,18 +1225,18 @@ ul {
 }
 
 .site-footer p {
-	font-family: var(--sans-text);
-	font-size: .95em;
+	font-family: var(--mono-text);
 	font-weight: 400;
 	line-height: 1.2;
 	margin-bottom: 0;
 }
 
 .site-footer a {
-	font-family: var(--mono-text);
-	font-weight: 400;
+	font-family: var(--sans-text);
+	font-weight: 700;
+	font-size: .95em;
 	line-height: 1.2;
-	color: var(--link-color);
+	color: var(--text-color);
 }
 
 .site-footer a:hover {
@@ -1288,11 +1293,11 @@ body {
 }
 
 .site-branding {
-	grid-column: 2 / span 4;
+	grid-column: 1 / span 14;
 }
 
 .main-navigation {
-	grid-column: 6 / span 8;
+	grid-column: 2 / span 12;
 }
 
 
